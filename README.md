@@ -1,4 +1,4 @@
-# QTM347_ML_Project
+# Predictive Modeling for Parkinson's Disease Diagnosis Using Speech Signal Features
 
 ## Introduction
 
@@ -9,6 +9,8 @@ Parkinson’s disease (PD) stands as the second most prevalent neurodegenerative
 The dataset utilized in this study comprises records from 252 individuals, consisting of 130 males and 122 females, each contributing three observations. This results in a total of 756 instances and 754 attributes, with one binary decision variable indicating Parkinson's disease (PD) or healthy status. Among the participants, 188 were diagnosed with PD, with ages ranging from 33 to 87 years and a mean age of 65.1±10.9, while the remaining 64 individuals were healthy, aged between 41 and 82 years with a mean age of 61.1±8.9. The dataset includes voice recordings collected at a 44.1 kHz frequency, focusing on sustained phonation of the vowel "a." Various speech signal processing algorithms were applied to extract features such as Time-Frequency Features, Mel Frequency Cepstral Coefficients (MFCCs), Wavelet Transform based Features, Vocal Fold Features, and Tunable Q-factor wavelet transform (TWQT) features. Additionally, baseline features including jitter, shimmer, recurrence period density entropy (RPDE), fundamental frequency parameters, Detrended Fluctuation Analysis (DFA), harmonicity parameters, and Pitch Period Entropy (PPE) were extracted. This comprehensive dataset contains 756 observations and 755 features, facilitating machine learning classifiers' analysis to extract valuable insights for PD diagnosis.
 
 ## Methodology
+
+![Parkinson's Disease Image](PD_ML_Outline.png)
 
 ### Pre-processing
 
