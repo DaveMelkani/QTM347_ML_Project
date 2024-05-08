@@ -35,3 +35,14 @@ The top three features overall across the four models, based on permutation impo
 
 
 ## Discussion
+
+The application of machine learning techniques, particularly predictive modeling using speech signal features, shows promising results in PD diagnosis. Our study demonstrates the efficacy of Random Forest, Logistic Regression, Support Vector Machine, and Multi-Layer Perceptron classifiers in accurately identifying PD patients based on speech recordings, achieving high accuracies ranging from 86.18% to 90.79%. Notably, features such as PC1, PC6, and PC7 consistently emerged as crucial contributors to the models' predictive performance, emphasizing their importance in PD classification. Specifically, attributes like “app_LT_entropy_shannon_6_coef”, “tqwt_TKEO_mean_dec_34”, and “std_5th_delta” were among the top contributors to PC1, PC6, and PC7, respectively. However, despite these advancements, there are limitations to consider. The current method relies on a relatively small dataset and may lack generalizability across diverse populations. Moreover, future research should explore integrating additional clinical data and leveraging more sophisticated feature engineering techniques to further enhance model robustness and diagnostic accuracy. Nonetheless, our findings underscore the potential of machine learning-driven approaches in revolutionizing early PD detection and intervention strategies, offering new avenues for improving neurodegenerative disease management.
+
+## References
+
+Biswas, Dipayan. “Parkinson’s Disease (PD) Classification.” Www.kaggle.com, www.kaggle.com/datasets/dipayanbiswas/parkinsons-disease-speech-signal-features/data. 
+
+Serbes, Gorkem, and Aysegul Gunduz. “UCI Machine Learning Repository.” Archive.ics.uci.edu, archive.ics.uci.edu/dataset/470/parkinson+s+disease+classification.
+
+Sowmya, Doneti. “Parkinson’s Disease Detection by MachineLearning Using SVM.” SlideShare, 9 Feb. 2023, www.slideshare.net/irjetjournal/parkinsons-disease-detection-by-machinelearning-using-svm.
+
