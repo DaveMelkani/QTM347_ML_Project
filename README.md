@@ -10,7 +10,7 @@ The dataset utilized in this study comprises records from 252 individuals, consi
 
 ## Methodology
 
-![Parkinson's Disease Image](PD_ML_Outline.png)
+![Parkinson's Disease Image](files/PD_ML_Outline.png)
 
 ### Pre-processing
 
